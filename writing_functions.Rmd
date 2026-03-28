@@ -134,5 +134,31 @@ sim_mean_sd(mu = 6, sample_size = 100, sigma = 3)
 
 ```
 
+## Let's review Napolean Dynamite
+
+```{r}
+
+```
+
+
+## Mean scoping example
+
+```{r}
+f = function(x) {
+  z = x + y
+  z
+}
+
+x = 1
+y = 2
+
+f(x = y)
+```
+
+## Functions as arguments
+
+```{r}
+
+```
 
 
